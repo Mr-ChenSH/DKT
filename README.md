@@ -1,4 +1,4 @@
-# Knowledge_Tracing
+# 知识追踪
 - Paper ： 知识追踪相关论文
     - [Deep Knowledge Tracing](https://github.com/ZoeYuhan/Knowledge_Tracing/blob/master/Paper/deep%20Knowledge%20Tracing.pdf):
         - 首次提出将RNN用于知识追踪，并能够基于复杂的知识联系进行建模（如构建知识图谱）
@@ -14,7 +14,7 @@
         - 将题面信息引入，不仅作为输入送入模型，而且将题目编码后的向量计算cosine相似度作为atention的socre
     - [A Self-Attentive model for Knowledge Tracing](https://arxiv.org/pdf/1907.06837.pdf)
         - 使用Transformer应用于知识追踪
-## Method
+## 方法
 | model | paper |
 | ----  | ----  |
 | DKT   |  [Deep Knowledge Tracing](https://github.com/ZoeYuhan/Knowledge_Tracing/blob/master/Paper/deep%20Knowledge%20Tracing.pdf) | 
@@ -24,14 +24,14 @@
 
 
 
-##  Usage  ： 
+##  代码  ： 
 
 ```bash
 python DKT/run_dkt.py 
 ```
 
 ----
-### Acknowledgement
+### 参考
 - Blog:
     - [深度知识追踪](https://sulingling123.github.io/2019/08/06/%E6%B7%B1%E5%BA%A6%E7%9F%A5%E8%AF%86%E8%BF%BD%E8%B8%AA/)
     - [论文导读：Exercise-Enhanced Sequential Modeling for Student Performance Prediction](https://blog.csdn.net/Zoe_Su/article/details/84566409)
